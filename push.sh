@@ -14,4 +14,4 @@ if [ -d dist ]; then
 	mv dist docs
 fi
 
-git push -u origin main
+git push -f origin main
