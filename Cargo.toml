@@ -1,0 +1,15 @@
+[package]
+name = "decchatz"
+version = "0.1.0"
+edition = "2018"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = "0.19"
+wasm-bindgen = "0.2"
+gloo-utils = "0.1.2"
+web-sys = {version = "0.3.56", features = ["WebSocket"] }
+yew-router = "0.16"
+gloo-timers = "0.2.3"
+gloo-console = "0.2.1"
+js-sys = "0.3.56"
